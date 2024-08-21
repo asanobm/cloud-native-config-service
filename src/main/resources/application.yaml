@@ -8,3 +8,8 @@ spring:
         git:
           uri: https://github.com/asanobm/cloud-native-config-service.git
           default-label: main
+          clone-on-start: true
+          force-pull: true
+          timeout: 30
+server:
+  port: 9000
